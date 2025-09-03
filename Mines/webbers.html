@@ -6,39 +6,56 @@
     <title>My New Web!</title>
 </head>
 <body>
-    <div class="pageTitleBar">
+    <div id="pageTitleBar">
         <h1>WHO AM I?</h1>
     </div>
 
 
-    <div class="personalInfo">
+    <div id="personalInfo">
 
         <div class="fullName">
             <h1>Gavin Matthew C. Caalem</h1>    
         </div>
 
         <div class="birthdate">
-            <p id="sourceDate"></p>
-            <script>
-            const date = new Date("2001-08-28");
-            document.getElementById("sourceDate").innerHTML = "BirthDate:" + date;
-            </script>
+            <p id="birthDate"></p>
         </div>
 
         <div class="age">
-            <p id="age"></p>
-            <script>
-            document.getElementById("age").innerHTML = "Age: " + 24;
-            </script>
+            <p id="myAge"></p>
         </div>    
         
         <div class="gender">
-            <p id = "sex"></p>
-            <script>
-            document.getElementById("sex").innerHTML = "Sex: Male";
-            </script>
+            <p>Sex: Male</p>
         </div>
     </div>
-    
+
+
+    <script>
+        //BirthDate
+        const birthDate = new Date("2001-08-28");
+
+        //Format BirthDate
+        const formattedBdate = (birthDate.getMonth() + 1).toString().padStart(2, '0') + '/' + 
+                              birthDate.getDate().toString().padStart(2, '0') + '/' + 
+                              birthDate.getFullYear();
+
+        document.getElementById("birthDate").innerHTML = "Birthdate: " + formattedBdate;
+
+        // Calculate Age
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDifference = today.getMonth() - birthDate.getMonth();
+        const dayDifference = today.getDate() - birthDate.getDate();
+
+        // Adjust age if birthday hasn't occurred yet this year
+        if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+            age--;
+        }
+
+        document.getElementById("myAge").innerHTML = "Age: " + age + " years old";
+
+    </script>
+
 </body>
 </html>
