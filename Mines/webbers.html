@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Web!</title>
+</head>
+<body>
+    <div pageTitleBar>
+        <h1>WHO AM I?</h1>
+    </div pageTitleBar>
+    <div personalInfo>
+        <div fullName>
+            <h1>Gavin Matthew C. Caalem</h1>    
+        </div fullName>
+        <div birthdate>
+            <p id="sourceDate"></p>
+            <script>
+            const date = new Date("2001-08-28");
+            document.getElementById("sourceDate").innerHTML = "BirthDate:" + date;
+            </script>
+        </div birthdate>
+        <div age>
+            <p id="age"></p>
+            <script>
+            document.getElementById("age").innerHTML = "Age: " + 24;
+            </script>
+        </div age>    
+        <div gender>
+            <p id = "sex"></p>
+            <script>
+            document.getElementById("sex").innerHTML = "Sex: Male";
+            </script>
+        </div gender>
+            
+    </div personalInfo>
+    
+</body>
+</html>
