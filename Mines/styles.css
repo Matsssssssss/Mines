@@ -4,5 +4,88 @@
         font-weight: 750;
         font-style: normal;
         font-size: 75px;
-        color:blue;
+        color:rgb(3, 158, 219);
     }
+
+.namePlaceHolder h3 {
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+}
+
+.personalInfo {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.contactInfo {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.profile {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.skills {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.educationalBackground {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.experience {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.certifcations {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.references {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hobbies {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+body {
+    background-image: url(photoCenter/stolenPS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
