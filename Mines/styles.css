@@ -1,3 +1,8 @@
-h1 {
-    color:black;
-}
+.fullName h1 {
+        font-family: "Epunda Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 750;
+        font-style: normal;
+        font-size: 75px;
+        color:blue;
+    }
