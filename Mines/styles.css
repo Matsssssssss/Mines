@@ -1,12 +1,20 @@
+.fullName {
+    text-align: center;
+    justify-content: center;
+}
 .fullName h1 {
-        font-family: "Epunda Slab", serif;
-        font-optical-sizing: auto;
-        font-weight: 750;
-        font-style: normal;
-        font-size: 75px;
-        color:rgb(3, 158, 219);
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: 75px;
+    color:rgb(3, 158, 219);
     }
-
+    
+.namePlaceHolder {
+    text-align: center;
+    justify-content: center;
+}
 .namePlaceHolder h3 {
     font-family: "Epunda Slab", serif;
     font-optical-sizing: auto;
