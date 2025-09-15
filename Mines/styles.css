@@ -16,7 +16,7 @@
 .namePlaceHolder {
     text-align: center;
     justify-content: center;
-    margin-top: none;
+    margin-top: -10px;
 }
 .namePlaceHolder h3 {
     font-family: "Epunda Slab", serif;
@@ -111,16 +111,17 @@
 
 /* THIS THE LEFT COLUMN, AKA detailsBlock1 */
 .detailsBlock1 {
-    margin: 0px 20px 0px 20px;
-    width: 30%;
+    margin: 0px 20px 0px 5%;
     float: left;
+    justify-content: center;
+    width: 40%;
     padding: 10px;
 }
 
 /* THIS THE RIGHT COLUMN, AKA detailsBlock2 */
 .detailsBlock2 {
     margin: -15px 20px 0px 20px;
-    width: 70%;
+    width: 60%;
     float: right;
     padding: 0px;
 }
