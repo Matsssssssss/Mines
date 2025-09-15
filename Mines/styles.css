@@ -1,19 +1,22 @@
 .fullName {
-    text-align: center;
-    justify-content: center;
+    
 }
 .fullName h1 {
     font-family: "Epunda Slab", serif;
+    text-align: center;
+    justify-content: center;
     font-optical-sizing: auto;
     font-weight: 750;
     font-style: normal;
     font-size: 75px;
     color:rgb(3, 158, 219);
+    margin-bottom: 0px;
     }
     
 .namePlaceHolder {
     text-align: center;
     justify-content: center;
+    margin-top: none;
 }
 .namePlaceHolder h3 {
     font-family: "Epunda Slab", serif;
@@ -28,25 +31,29 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
 }
 
 .contactInfo {
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
+    margin-top: none;
 }
 
 .profile {
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
+    margin-top: none;
+}
+.profile p {
+    text-justify: inter-word;
+    display: flex;
 }
 
 .skills {
     font-family: Arial, sans-serif;
+    display:flex;
     font-size: 20px;
     color: white;
     margin-top: 20px;
@@ -57,6 +64,11 @@
     font-size: 20px;
     color: white;
     margin-top: 20px;
+}
+
+.educationalBackground p {
+    text-justify: inter-word;
+    display: flex;
 }
 
 .experience {
@@ -87,9 +99,35 @@
     margin-top: 20px;
 }
 
+/* middleContainer */
+.middleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* THIS THE LEFT COLUMN, AKA detailsBlock1 */
+.detailsBlock1 {
+    margin: 0px 20px 0px 20px;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+/* THIS THE RIGHT COLUMN, AKA detailsBlock2 */
+.detailsBlock2 {
+    margin: -15px 20px 0px 20px;
+    width: 70%;
+    float: right;
+    padding: 0px;
+}
 
 
 
+/* THIS THE WHOLE BODY */
 body {
     background-image: url(photoCenter/stolenPS.jpg);
     background-size: cover;
