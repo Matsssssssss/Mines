@@ -1,6 +1,3 @@
-.fullName {
-    
-}
 .fullName h1 {
     font-family: "Epunda Slab", serif;
     text-align: center;
@@ -38,6 +35,20 @@
     font-size: 20px;
     color: white;
     margin-top: none;
+}
+
+.hobbies {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.references {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
 }
 
 .profile {
@@ -78,26 +89,8 @@
     margin-top: 20px;
 }
 
-.certifcations {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
-}
 
-.references {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
-}
 
-.hobbies {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
-}
 
 /* middleContainer */
 .middleContainer {
@@ -116,6 +109,12 @@
     justify-content: center;
     width: 40%;
     padding: 10px;
+
+    /*Gradients*/
+    background: linear-gradient(to bottom right, rgba(150, 16, 16, 0.5), rgba(109, 107, 107, 0.644));
+    border-radius: 8px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(41, 40, 40, 0.2);
 }
 
 /* THIS THE RIGHT COLUMN, AKA detailsBlock2 */
@@ -123,7 +122,30 @@
     margin: -15px 20px 0px 20px;
     width: 60%;
     float: right;
-    padding: 0px;
+    padding: 10px;
+
+    /*Gradients*/
+    background: linear-gradient(to bottom right, rgba(167, 153, 153, 0.5), rgba(109, 10, 10, 0.644));
+    border-radius: 8px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(41, 40, 40, 0.2);
+}
+
+.footer {
+    background: linear-gradient(to bottom right, rgba(5, 29, 94, 0.89), rgba(81, 136, 255, 0.863));    /* dark blue background */
+    text-align: center;          /* center the content */
+    justify-content: center;
+}
+.certifcations {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.certList {
+    text-justify: inter-word;
+    display: flex;
+    justify-content: center;
 }
 
 
