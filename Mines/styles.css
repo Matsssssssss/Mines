@@ -26,34 +26,35 @@
 
 .personalInfo {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
+    margin: 20px;
 }
 
 .contactInfo {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    margin-top: none;
+    margin: 20px;
 }
 
 .hobbies {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .references {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .profile {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     margin-top: none;
 }
@@ -65,14 +66,14 @@
 .skills {
     font-family: Arial, sans-serif;
     display:flex;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     margin-top: 20px;
 }
 
 .educationalBackground {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     margin-top: 20px;
 }
@@ -84,7 +85,7 @@
 
 .experience {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     margin-top: 20px;
 }
@@ -104,25 +105,29 @@
 
 /* THIS THE LEFT COLUMN, AKA detailsBlock1 */
 .detailsBlock1 {
-    margin: 0px 20px 0px 5%;
+    margin: 0px 20px 0px 2.5%;
     float: left;
     justify-content: center;
     width: 40%;
-    padding: 10px;
+    padding: 30px;
+    margin: 20px;
 
     /*Gradients*/
     background: linear-gradient(to bottom right, rgba(150, 16, 16, 0.5), rgba(109, 107, 107, 0.644));
     border-radius: 8px;
     color: whitesmoke;
     box-shadow: 0 4px 8px rgba(41, 40, 40, 0.2);
+    text-size-adjust: 100%;
 }
 
 /* THIS THE RIGHT COLUMN, AKA detailsBlock2 */
 .detailsBlock2 {
-    margin: -15px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
     width: 60%;
     float: right;
-    padding: 10px;
+    padding: 30px;
+    margin: 20px;
+    text-size-adjust: 100%;
 
     /*Gradients*/
     background: linear-gradient(to bottom right, rgba(167, 153, 153, 0.5), rgba(109, 10, 10, 0.644));
@@ -135,17 +140,24 @@
     background: linear-gradient(to bottom right, rgba(5, 29, 94, 0.89), rgba(81, 136, 255, 0.863));    /* dark blue background */
     text-align: center;          /* center the content */
     justify-content: center;
+    display: flex;
+    margin: 10px -8px -10px -8px;
 }
 .certifcations {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 .certList {
     text-justify: inter-word;
+    font-size: 24px;
     display: flex;
     justify-content: center;
+    padding: 10px
+}
+.certList span{
+    margin: 0 10px;
 }
 
 
